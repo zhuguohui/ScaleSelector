@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleSelectorView">
+        <!--圆圈的颜色-->
+        <attr name="ScaleSelectorCColor" format="color" />
+        <!--文字和刻度词颜色-->
+        <attr name="ScaleSelectorStyleColor" format="color" />
+        <!--文字大小-->
+        <attr name="ScaleSelecorTextSize" format="dimension" />
+        <!--显示的数据-->
+        <attr name="ScaleSelectorData" format="reference" />
+        <!--默认选中项-->
+        <attr name="ScaleSelectorDefaultIndex" format="integer" />
+        <!--圆的半径-->
+        <attr name="ScaleSelectorCRadius" format="dimension" />
+        <!--动画差值器-->
+        <attr name="ScaleSelectorInterpolator" format="reference" />
+    </declare-styleable>
+</resources>
